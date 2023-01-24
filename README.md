@@ -1,0 +1,2 @@
+# EffectiveNovelScriptSnippet-for-vscode
+EffectiveNovelScript Snippet for VisualStudioCode
