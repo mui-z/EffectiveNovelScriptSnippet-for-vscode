@@ -1,0 +1,65 @@
+{
+	"newline": {
+		"prefix": "[n]",
+		"body": [
+			"[n]$0"
+		],
+		"description": "newline"
+	},
+	"tap wait": {
+		"prefix": "[tw]",
+		"body": [
+			"[tw]$0",
+		],
+		"description": "tap wait"
+	},
+	"tap wait and newline": {
+		"prefix": "[twn]",
+		"body": [
+			"[twn]$0",
+		],
+		"description": "tap wait and newline"
+	},
+	"clear": {
+		"prefix": "[cl]",
+		"body": [
+			"[cl]$0",
+		],
+		"description": "clear"
+	},
+	"sleep": {
+		"prefix": "[sleep duration=]",
+		"body": [
+			"[sleep duration=$1]$0",
+		],
+		"description": "sleep for the specified time. duration unit is milliseconds"
+	},
+	"delay": {
+		"prefix": "[delay]",
+		"body": [
+			"[delay speed=$1]$0",
+		],
+		"description": "change delay character displayed speed. speed unit is milliseconds"
+	},
+	"set default delay": {
+		"prefix": "[setDefaultDelay]",
+		"body": [
+			"[setDefaultDelay speed=$1]$0",
+		],
+		"description": "change delay character displayed speed. speed unit is milliseconds"
+	},
+	"reset delay": {
+		"prefix": "[resetDelay]",
+		"body": [
+			"[resetDelay]$0",
+		],
+		"description": "reset delay speed. change to default speed."
+	},
+	"end": {
+		"prefix": "[e]",
+		"body": [
+			"[e]$0",
+		],
+		"description": "stop script novel end point"
+	}
+}
