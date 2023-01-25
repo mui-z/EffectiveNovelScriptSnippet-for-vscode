@@ -42,7 +42,7 @@
 		"description": "change delay character displayed speed. speed unit is milliseconds"
 	},
 	"set default delay": {
-		"prefix": "[setDefaultDelay]",
+		"prefix": "[setDefaultDelay speed=]",
 		"body": [
 			"[setDefaultDelay speed=$1]$0",
 		],
