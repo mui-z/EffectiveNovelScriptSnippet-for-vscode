@@ -2,4 +2,4 @@
 
 EffectiveNovelScript Snippet for VisualStudioCode
 
-EffectiveNovelScript is novel script in use [EffectiveNovelCore].
+EffectiveNovelScript is novel script in use [EffectiveNovelCore](https://github.com/mui-z/EffectiveNovelScript).
