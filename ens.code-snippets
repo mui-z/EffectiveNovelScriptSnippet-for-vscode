@@ -35,7 +35,7 @@
 		"description": "sleep for the specified time. duration unit is milliseconds"
 	},
 	"delay": {
-		"prefix": "[delay]",
+		"prefix": "[delay speed=]",
 		"body": [
 			"[delay speed=$1]$0",
 		],
